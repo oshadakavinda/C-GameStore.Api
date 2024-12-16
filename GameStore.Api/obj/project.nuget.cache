@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5gR7GXcmllMemSYsjeBX6X/Xl2+NWXn4T2bFBAxKC7poi9/5TMgAPw5QoA83gLs07fof86OEllPXx+yo9/XzDg==",
+  "dgSpecHash": "PIJ+3R7egAxccyiMZax6VGBd7Vb0Le+Uf9tbZSF43xNW8xhwsqFt3K9rQzrdpTzH25E58vHfG33O+8bg/TUoWw==",
   "success": true,
-  "projectFilePath": "d:\\Programming\\C#\\GameStore.Api\\GameStore.Api\\GameStore.Api.csproj",
+  "projectFilePath": "D:\\Programming\\C#\\GameStore.Api\\gamestore.api\\GameStore.Api.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
