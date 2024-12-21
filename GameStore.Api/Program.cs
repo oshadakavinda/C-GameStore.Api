@@ -11,5 +11,7 @@ builder.Services.AddSqlite<GameStoreContext>(connString);
 var app = builder.Build();
 
 app.MapGamesEndpoints();
+
+app.MigrateDb();
 // Start the web application and listen for incoming requests
 app.Run();

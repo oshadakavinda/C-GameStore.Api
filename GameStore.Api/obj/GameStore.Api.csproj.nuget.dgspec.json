@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Programming\\C#\\GameStore.Api\\GameStore.Api\\GameStore.Api.csproj": {}
+    "D:\\Programming\\C#\\GameStore.Api\\gamestore.api\\GameStore.Api.csproj": {}
   },
   "projects": {
-    "d:\\Programming\\C#\\GameStore.Api\\GameStore.Api\\GameStore.Api.csproj": {
+    "D:\\Programming\\C#\\GameStore.Api\\gamestore.api\\GameStore.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Programming\\C#\\GameStore.Api\\GameStore.Api\\GameStore.Api.csproj",
+        "projectUniqueName": "D:\\Programming\\C#\\GameStore.Api\\gamestore.api\\GameStore.Api.csproj",
         "projectName": "GameStore.Api",
-        "projectPath": "d:\\Programming\\C#\\GameStore.Api\\GameStore.Api\\GameStore.Api.csproj",
+        "projectPath": "D:\\Programming\\C#\\GameStore.Api\\gamestore.api\\GameStore.Api.csproj",
         "packagesPath": "C:\\Users\\oshad\\.nuget\\packages\\",
-        "outputPath": "d:\\Programming\\C#\\GameStore.Api\\GameStore.Api\\obj\\",
+        "outputPath": "D:\\Programming\\C#\\GameStore.Api\\gamestore.api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\oshad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,12 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[9.0.0, )"
