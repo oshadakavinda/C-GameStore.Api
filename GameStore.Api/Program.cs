@@ -6,7 +6,9 @@ using GameStore.Api.Endpoints;
 var builder = WebApplication.CreateBuilder(args);
 
 var connString = "Data Source=GameStore.db";
+// builder.Services.AddSqlite<GameStoreContext>(connString);
 builder.Services.AddSqlite<GameStoreContext>(connString);
+
 // Build the application using the configured builder
 var app = builder.Build();
 
