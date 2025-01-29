@@ -1,26 +1,26 @@
 GET http://localhost:5228/games
 
 ###
-GET http://localhost:5228/games/1
+GET http://localhost:5228/games/3
 
 ###
 POST http://localhost:5228/games
 Content-Type: application/json
 
 {
-    "name" : "Final Fantasy",
-    "genreId":2,
-    "price":59.99,
-    "releaseDate":"2010-11-18"
+    "name" : "Street Fighter",
+    "genre":"Fighting",
+    "price":9.99,
+    "releaseDate":"2011-11-18"
 }
 
 ###
-PUT http://localhost:5228/games/5
+PUT http://localhost:5228/games/3
 Content-Type: application/json
 
 {
-    "name" : "Minecraft",
-    "genre":"Kids and Family",
+    "name" : "Street Fighter",
+    "genreId":1 ,
     "price":9.99,
     "releaseDate":"2011-11-18"
 }
