@@ -1,15 +1,15 @@
 GET http://localhost:5228/games
 
 ###
-GET http://localhost:5228/games/3
+GET http://localhost:5228/games/1
 
 ###
 POST http://localhost:5228/games
 Content-Type: application/json
 
 {
-    "name" : "Street Fighter",
-    "genre":"Fighting",
+    "name" : "Final Fantasy XIV",
+    "genreId":2,
     "price":9.99,
     "releaseDate":"2011-11-18"
 }
@@ -27,3 +27,5 @@ Content-Type: application/json
 
 ###
 DELETE http://localhost:5228/games/1
+
+
